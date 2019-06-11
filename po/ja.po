@@ -189,7 +189,7 @@ msgstr "現在の同期状況"
 #: public/views/index.html
 #, fuzzy
 #| msgid "Transactions"
-msgid "day QTUM Transaction History"
+msgid "day EUREKACOIN Transaction History"
 msgstr "トランザクション"
 
 #: public/src/js/controllers/statistics.js
@@ -330,7 +330,7 @@ msgstr ""
 msgid ""
 "Last Block Hash \r\n"
 "\t\t\t\t\t\t\t\t<span class=\"fsz-13\">\r\n"
-"\t\t\t\t\t\t\t\t\t({{ 'Qtum' | translate }})\r\n"
+"\t\t\t\t\t\t\t\t\t({{ 'EurekaCoin' | translate }})\r\n"
 "\t\t\t\t\t\t\t\t</span>"
 msgstr ""
 
@@ -580,7 +580,7 @@ msgid "Summary"
 msgstr "概要"
 
 #: public/views/statistics.html
-msgid "Summary of QTUM statistics for last 24 hours"
+msgid "Summary of EUREKACOIN statistics for last 24 hours"
 msgstr ""
 
 #: public/views/status.html
@@ -608,7 +608,7 @@ msgid "The message is verifiably from {{verification.address}}."
 msgstr "メッセージは{{verification.address}}により検証されました。"
 
 #: public/src/js/controllers/statistics.js
-msgid "The number of daily confirmed QTUM transactions."
+msgid "The number of daily confirmed EUREKACOIN transactions."
 msgstr ""
 
 #: public/src/js/controllers/statistics.js
@@ -820,8 +820,8 @@ msgstr ""
 #~ msgid "Input"
 #~ msgstr "入力"
 
-#~ msgid "Last Block Hash (Qtum)"
-#~ msgstr "直前のブロックのハッシュ値 (Qtum)"
+#~ msgid "Last Block Hash (EurekaCoin)"
+#~ msgstr "直前のブロックのハッシュ値 (EurekaCoin)"
 
 #~ msgid "Loading Address Information"
 #~ msgstr "アドレス情報を読み込んでいます"

@@ -197,7 +197,7 @@ msgstr "Aktueller Status"
 #: public/views/index.html
 #, fuzzy
 #| msgid "Transactions"
-msgid "day QTUM Transaction History"
+msgid "day EUREKACOIN Transaction History"
 msgstr "Transaktionen"
 
 #: public/src/js/controllers/statistics.js
@@ -592,7 +592,7 @@ msgid "Summary"
 msgstr "Zusammenfassung"
 
 #: public/views/statistics.html
-msgid "Summary of QTUM statistics for last 24 hours"
+msgid "Summary of EUREKACOIN statistics for last 24 hours"
 msgstr ""
 
 #: public/views/status.html
@@ -620,7 +620,7 @@ msgid "The message is verifiably from {{verification.address}}."
 msgstr ""
 
 #: public/src/js/controllers/statistics.js
-msgid "The number of daily confirmed QTUM transactions."
+msgid "The number of daily confirmed EUREKACOIN transactions."
 msgstr ""
 
 #: public/src/js/controllers/statistics.js
@@ -834,7 +834,7 @@ msgstr ""
 #~ msgid "Input"
 #~ msgstr "Eingänge"
 
-#~ msgid "Last Block Hash (Qtum)"
+#~ msgid "Last Block Hash (EurekaCoin)"
 #~ msgstr "Letzter Hash (Quantumd)"
 
 #~ msgid "Loading Address Information"

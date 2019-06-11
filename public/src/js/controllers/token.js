@@ -3,7 +3,7 @@
 angular.module('insight.token').controller('TokenController',
 function($routeParams, $rootScope, $location, ERC20ContractInfo, ERC20Transfers, ERC20AddressBalances, ERC20Holders, ContractsRepository, SolidityCoder, Web3Utils, Contracts, BigNumber) {
 
-	if (!Web3Utils.isAddress($routeParams.address) && !Contracts.isValidQtumAddress($routeParams.address)) {
+	if (!Web3Utils.isAddress($routeParams.address) && !Contracts.isValidEurekaCoinAddress($routeParams.address)) {
 
 		$rootScope.flashMessage = 'Invalid Address: ' + $routeParams.address;
         $location.path('/e404').replace();
@@ -43,7 +43,7 @@ function($routeParams, $rootScope, $location, ERC20ContractInfo, ERC20Transfers,
             self.filterByAddress = Contracts.getBitAddressFromContractAddress($routeParams.a);
         }
 
-        if (Contracts.isValidQtumAddress($routeParams.a)) {
+        if (Contracts.isValidEurekaCoinAddress($routeParams.a)) {
             self.filterByAddress = $routeParams.a;
         }
 
@@ -188,7 +188,7 @@ function($routeParams, $rootScope, $location, ERC20ContractInfo, ERC20Transfers,
 
     	try {
 
-    		if (Contracts.isValidQtumAddress(address)) {
+    		if (Contracts.isValidEurekaCoinAddress(address)) {
 
                 var ethAddress = Contracts.getEthAddressFromBitAddress(address);
 

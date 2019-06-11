@@ -24,7 +24,7 @@ angular.module('insight', [
 	'insight.connection',
 	'insight.currency',
 	'insight.messages',
-	'insight.qtumcorelib',
+	'insight.eurekacoincorelib',
 	'insight.bignumber',
 	'insight.solidity_coder',
 	'insight.web3_utils',
@@ -51,7 +51,7 @@ angular.module('insight.connection', []);
 angular.module('insight.currency', []);
 angular.module('insight.messages', []);
 angular.module('insight.messages', []);
-angular.module('insight.qtumcorelib', []);
+angular.module('insight.eurekacoincorelib', []);
 angular.module('insight.contracts', []);
 angular.module('insight.opcodes', []);
 angular.module('insight.networks', []);

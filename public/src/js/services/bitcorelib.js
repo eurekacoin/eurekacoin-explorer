@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('insight.qtumcorelib').factory('QtumCoreLib',
+angular.module('insight.eurekacoincorelib').factory('EurekaCoinCoreLib',
     function() {
-        var QtumCoreLib = require('qtumcore-lib');
-        return QtumCoreLib;
+        var EurekaCoinCoreLib = require('eurekacoincore-lib');
+        return EurekaCoinCoreLib;
     });
 

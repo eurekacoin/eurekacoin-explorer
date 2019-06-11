@@ -2,10 +2,10 @@
 
 angular.module('insight.networks')
 	.factory('Networks',
-		function(Constants, QtumCoreLib) {
+		function(Constants, EurekaCoinCoreLib) {
 			return {
 				getCurrentNetwork: function () {
-					return QtumCoreLib.Networks.get(Constants.NETWORK);
+					return EurekaCoinCoreLib.Networks.get(Constants.NETWORK);
 				}
 			}
 		});

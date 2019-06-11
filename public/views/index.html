@@ -20,11 +20,11 @@
 		</div>
 		<div class="content__list content__list-blockchain" ng-if="IC.blockchainInfo">
 			<div class="item item-full">
-				<div class="label">{{ IC.blockchainInfo.supply | numeraljs : '0,0[.][00000000]' }} QTUM</div>
+				<div class="label">{{ IC.blockchainInfo.supply | numeraljs : '0,0[.][00000000]' }} EUREKACOIN</div>
 				<div class="labeled" translate>Total Supply</div>
 			</div>
 			<div class="item item-full" ng-if="IC.blockchainInfo">
-				<div class="label">{{ (IC.blockchainInfo.supply - 5750000 > 0 ? IC.blockchainInfo.supply - 5750000 : 0) | numeraljs : '0,0[.][00000000]' }} QTUM</div>
+				<div class="label">{{ (IC.blockchainInfo.supply - 5750000 > 0 ? IC.blockchainInfo.supply - 5750000 : 0) | numeraljs : '0,0[.][00000000]' }} EUREKACOIN</div>
 				<div class="labeled" translate>Circulating Supply</div>
 			</div>
 			<div class="limiter"></div>
@@ -179,7 +179,7 @@
 					class="insight__chartTitle"
 					ng-if="IC.chartOptions.data && IC.chartOptions.labels">
 				{{ IC.chartDays }}
-				{{ 'day QTUM Transaction History' | translate }}
+				{{ 'day EUREKACOIN Transaction History' | translate }}
 			</div>
 			<div class="" ng-if="IC.chartOptions.data && IC.chartOptions.labels">
 				<div class="">
@@ -228,7 +228,7 @@
 	<div class="content__full air-b" data-ng-controller="SendRawTransactionController as SRTC">
 		<div class="heading">
 			<h1 class="heading__title">Send Raw Transaction</h1>
-			<p class="heading__desc">You could enter a Signed Raw Transaction in hex format and broadcast it over the QTUM network.</p>
+			<p class="heading__desc">You could enter a Signed Raw Transaction in hex format and broadcast it over the EUREKACOIN network.</p>
 		</div>
 		<div class="section">
 	

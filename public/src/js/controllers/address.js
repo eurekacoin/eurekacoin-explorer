@@ -48,7 +48,7 @@ function($scope, $rootScope, $document, $routeParams, $location, $window, Addres
 	self.balances = [];
 
 	var _startSocket = function() {
-		socket.on('qtumd/addresstxid', function(data) {
+		socket.on('eurekacoind/addresstxid', function(data) {
 
 			if (data.address === addrStr) {
 
@@ -60,7 +60,7 @@ function($scope, $rootScope, $document, $routeParams, $location, $window, Addres
 			}
 		});
 	
-		socket.emit('subscribe', 'qtumd/addresstxid', [addrStr]);
+		socket.emit('subscribe', 'eurekacoind/addresstxid', [addrStr]);
 	};
 
     var _parseStorageRowType = function(hex, type) {
@@ -156,7 +156,7 @@ function($scope, $rootScope, $document, $routeParams, $location, $window, Addres
 
 	var _stopSocket = function () {
 
-		socket.emit('unsubscribe', 'qtumd/addresstxid', [addrStr]);
+		socket.emit('unsubscribe', 'eurekacoind/addresstxid', [addrStr]);
 	};
 
 	socket.on('connect', function() {
