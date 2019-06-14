@@ -127,11 +127,11 @@ msgstr "No se pudo conectar a Internet. Por favor, verifique su conexión."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to quantumd to get live updates from the p2p network. (Tried "
-"connecting to quantumd at {{host}}:{{port}} and failed.)"
+"Can't connect to eurekacoind to get live updates from the p2p network. (Tried "
+"connecting to eurekacoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a quantumd para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a quantumd de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a eurekacoind para obtener actualizaciones en vivo de la "
+"red p2p. (Se intentó conectar a eurekacoind de {{host}}:{{port}} y falló.)"
 
 #: public/views/transaction.html
 msgid "Coinbase"
@@ -300,15 +300,15 @@ msgstr "Entrada sin confirmar"
 #: public/views/index.html
 msgid ""
 "Insight is an <a href=\"https://insight.is/\" target=\"_blank\">open-source "
-"Quantum blockchain explorer</a> with complete REST and websocket APIs that "
+"EurekaCoin blockchain explorer</a> with complete REST and websocket APIs that "
 "can be used for writing web wallets and other apps that need more advanced "
-"blockchain queries than provided by quantumd RPC. Check out the <a href="
+"blockchain queries than provided by eurekacoind RPC. Check out the <a href="
 "\"https://github.com/bitpay/insight-ui\" target=\"_blank\" class=\"ng-scope"
 "\">source code</a>."
 msgstr ""
 "Insight  es un <a href=\"https://insight.is/\" target=\"_blank\">explorador "
-"de bloques de Quantum open-source </a>con un complete conjunto de REST y "
-"APIs de websockets que pueden ser usadas para escribir monederos de Quantums "
+"de bloques de EurekaCoin open-source </a>con un complete conjunto de REST y "
+"APIs de websockets que pueden ser usadas para escribir monederos de EurekaCoins "
 "y otras aplicaciones que requieran consultar in explorador de bloques.  "
 "Obtén el código en <a href=\"https://github.com/bitpay/insight-ui\" target="
 "\"_blank\" class=\"ng-scope\">el repositorio abierto de Github</a>."
@@ -336,7 +336,7 @@ msgstr ""
 msgid ""
 "Last Block Hash \r\n"
 "\t\t\t\t\t\t\t\t<span class=\"fsz-13\">\r\n"
-"\t\t\t\t\t\t\t\t\t({{ 'Quantumd' | translate }})\r\n"
+"\t\t\t\t\t\t\t\t\t({{ 'EurekaCoind' | translate }})\r\n"
 "\t\t\t\t\t\t\t\t</span>"
 msgstr ""
 
@@ -478,21 +478,21 @@ msgid "Quantity"
 msgstr ""
 
 #: public/views/messages_verify.html
-msgid "Quantum comes with a way of signing arbitrary messages."
+msgid "EurekaCoin comes with a way of signing arbitrary messages."
 msgstr ""
 
 #: public/views/statistics.html
-msgid "Quantum Mined"
+msgid "EurekaCoin Mined"
 msgstr ""
 
 #: public/views/status.html
 #, fuzzy
-#| msgid "Quantum node information"
-msgid "Quantum node information"
-msgstr "Información del nodo Quantum"
+#| msgid "EurekaCoin node information"
+msgid "EurekaCoin node information"
+msgstr "Información del nodo EurekaCoin"
 
 #: public/views/status.html
-msgid "Quantumd"
+msgid "EurekaCoind"
 msgstr ""
 
 #: public/views/token/holders.html
@@ -640,13 +640,13 @@ msgstr "No hay transacciones para esta dirección."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\r\n"
-"        the Quantum network."
+"        the EurekaCoin network."
 msgstr ""
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\r\n"
-"        a specific Quantum address."
+"        a specific EurekaCoin address."
 msgstr ""
 
 #: public/views/statistics.html
@@ -808,8 +808,8 @@ msgstr ""
 #~ msgid "Insight is an"
 #~ msgstr "Insight  es un"
 
-#~ msgid "open-source Quantum blockchain explorer"
-#~ msgstr "explorador de bloques de Quantum open-source"
+#~ msgid "open-source EurekaCoin blockchain explorer"
+#~ msgstr "explorador de bloques de EurekaCoin open-source"
 
 #~ msgid "source code"
 #~ msgstr "el repositorio abierto de Github"
@@ -833,7 +833,7 @@ msgstr ""
 #~ msgstr "Entrada"
 
 #~ msgid "Last Block Hash (EurekaCoin)"
-#~ msgstr "Último Bloque Hash (Quantumd)"
+#~ msgstr "Último Bloque Hash (EurekaCoind)"
 
 #~ msgid "Loading Address Information"
 #~ msgstr "Cargando Información de la Dirección"
