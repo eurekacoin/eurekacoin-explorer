@@ -172,7 +172,7 @@ function($scope, $rootScope, $routeParams, $location, Transaction, TransactionsB
 
 		tx.tokenEvents = [];
 
-		if (tx.isqrc20Transfer && tx.receipt && tx.receipt.length) {
+		if (tx.iserc20Transfer && tx.receipt && tx.receipt.length) {
 
 			for (var i = 0; i < tx.receipt.length; i++) {
 
