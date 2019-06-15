@@ -30,11 +30,11 @@ function($scope, $rootScope, $route, gettextCatalog, amMoment, getSocket, Block,
                 'link': 'stats',
                 'active_part': '/stats'
             },
-            {
-                'title': gettextCatalog.getString('Nodemap'),
-                'link': Constants.NODEMAP_LINK,
-                'active_part': '/nodemap'
-            },
+            //{
+            //    'title': gettextCatalog.getString('Nodemap'),
+            //    'link': Constants.NODEMAP_LINK,
+            //    'active_part': '/nodemap'
+            //},
             {
                 'title': gettextCatalog.getString('Charts'),
                 'link': 'charts',
