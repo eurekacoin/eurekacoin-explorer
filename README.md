@@ -34,52 +34,52 @@ A EUREKACOIN blockchain explorer web application service for [EurekaCoincore Nod
 5. Edit eurekacoincore-node.json  
 
     ```json
-    {
-      "network": "livenet",
-      "port": 3001,
-      "services": [
-        "eurekacoind",
-        "eurekacoin-insight-api",
-        "eurekacoin-explorer",
-        "web"
-      ],
-      "servicesConfig": {
-        "eurekacoin-explorer": {
-          "apiPrefix": "eurekacoin-insight-api",
-          "routePrefix": "eurekacoin-explorer",
-          "nodemapLink": "https://eurekacoin.org/en/nodemap"
-       },
-       "eurekacoin-insight-api": {
-         "routePrefix": "eurekacoin-insight-api",
-         "rateLimiterOptions": {
-           "whitelist": [
-             "123.456.12.34",
-             "::ffff:123.456.12.34"
-           ],
-           "whitelistLimit": 9999999,
-           "limit": 200,
-           "interval": 60000,
-           "banInterval": 3600000
-         },
-          "db": {
-            "host": "127.0.0.1",
-            "port": "27017",
-            "database": "eurekacoin-api-livenet",
-            "user": "",
-            "password": ""
-         },
-          "erc20": {
-            "updateFromBlockHeight": 0
-          }
-        },
-        "eurekacoind": {
-          "spawn": {
-            "datadir": "/home/user/.eurekacoin",
-           "exec": "/home/user/eurekacoin-bitcore/src/eurekacoind"
-          }
-        }
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "eurekacoind",
+    "eurekacoin-insight-api",
+    "eurekacoin-explorer",
+    "web"
+  ],
+  "servicesConfig": {
+    "eurekacoin-explorer": {
+      "apiPrefix": "insight-api",
+      "routePrefix": "",
+      "nodemapLink": "https://eurekacoin.org/en/nodemap"
+   },
+   "eurekacoin-insight-api": {
+     "routePrefix": "insight-api",
+     "rateLimiterOptions": {
+       "whitelist": [
+         "123.456.12.34",
+         "::ffff:123.456.12.34"
+       ],
+       "whitelistLimit": 9999999,
+       "limit": 200,
+       "interval": 60000,
+       "banInterval": 3600000
+     },
+      "db": {
+        "host": "127.0.0.1",
+        "port": "27017",
+        "database": "eurekacoin-api-livenet2",
+        "user": "",
+        "password": ""
+     },
+      "erc20": {
+        "updateFromBlockHeight": 0
+      }
+    },
+    "eurekacoind": {
+      "spawn": {
+        "datadir": "/home/ubuntu/.eurekacoin",
+       "exec": "/home/ubuntu/eurekacoin-bitcore/src/eurekacoind"
       }
     }
+  }
+}
 
     ```  
 6. Edit eurekacoin.conf  
