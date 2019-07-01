@@ -100,6 +100,7 @@ A EUREKACOIN blockchain explorer web application service for [EurekaCoincore Nod
     gen=0
     addrindex=1
     logevents=1
+    reindex=1
     ```  
 7. Run Node  
 
