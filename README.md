@@ -33,7 +33,7 @@ A EUREKACOIN blockchain explorer web application service for [EurekaCoincore Nod
     ```  
 5. Edit eurekacoincore-node.json  
 
-    ```json
+ ```json
 {
   "network": "livenet",
   "port": 3001,
@@ -81,7 +81,7 @@ A EUREKACOIN blockchain explorer web application service for [EurekaCoincore Nod
   }
 }
 
-    ```  
+```  
 6. Edit eurekacoin.conf  
 
     ```
