@@ -97,7 +97,6 @@ A EUREKACOIN blockchain explorer web application service for [EurekaCoincore Nod
     rpcuser=user
     rpcpassword=password
     rpcport=18332
-    reindex=1
     gen=0
     addrindex=1
     logevents=1
@@ -108,7 +107,7 @@ A EUREKACOIN blockchain explorer web application service for [EurekaCoincore Nod
     $(npm bin)/eurekacoincore-node start
     ```  
 
-8. Open a web browser to `http://localhost:3001/eurekacoin-explorer` or `http://localhost:3001/eurekacoin-insight-api`  
+8. Open a web browser to `http://localhost:3001/` or `http://localhost:3001/insight-api`  
 
 ## Development
 
